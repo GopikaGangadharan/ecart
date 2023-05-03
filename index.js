@@ -24,7 +24,7 @@ server.use(router)
 
 
 //create port to listen your server app
-const PORT =3000
+const PORT =3000 || process.env.PORT
 
 //api test
 server.get('/',(req,res)=>{
