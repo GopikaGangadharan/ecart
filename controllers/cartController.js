@@ -138,7 +138,7 @@ exports.decrementQuantity = async(req,res)=>{
         }
      }
      else{
-        res.status(404).json("product is not in your cart")
+        res.status(404).json("products not in your cart")
      }
     }
     catch(error){
