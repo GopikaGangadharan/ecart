@@ -27,9 +27,9 @@ server.use(router)
 const PORT =3000 || process.env.PORT
 
 //api test
-server.get('/',(req,res)=>{
-    res.status(200).json("E cart server started")
-})
+// server.get('/',(req,res)=>{
+//     res.status(200).json("E cart server started")
+// })
 
 //Run server app in their specific port
 server.listen(PORT,()=>{
