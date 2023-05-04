@@ -34,7 +34,7 @@ const cartSchema = mongoose.Schema({
 })
 
 //create model using the above schema
-const cartitems = mongoose.model("cartitems",cartSchema)
+const cartitems = new mongoose.model("cartitems",cartSchema)
 
 
 //export model
