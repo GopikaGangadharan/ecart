@@ -4,7 +4,7 @@ const cartitems = require('../models/cartSchema')
 //to add items to cart
 exports.addToCart = async(req,res)=>{
     //to get product details from request body
-    const{id,title,image,price,quantity} = req.body
+    const{id,title,price,image,quantity} = req.body
     //logic
     try{
 //check product is alredy in cart collection
